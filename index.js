@@ -18,7 +18,7 @@ class Calculator{
     negation(){ 
         if(this.currentOperand == '') return 
         let negation = parseFloat(this.currentOperand) 
-        this.currentOperand = -Math.abs(ne) 
+        this.currentOperand = -Math.abs(negation) 
     } 
     delete(){ 
       this.currentOperand = this.currentOperand.toString().slice(0, -1) 
